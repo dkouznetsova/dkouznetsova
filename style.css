@@ -1,0 +1,261 @@
+.topheader{
+z-index: 99999;
+position: fixed;
+width: 100%;
+background: #A08EDC;
+height: 140px;
+}
+body{
+color: #696969;
+}
+
+
+
+.logo{
+display: block;
+position: absolute;
+bottom: auto;
+}
+.logo>a>img{
+margin-top: -10px;
+padding-right: 10px;
+height: 100px;
+}
+.logo>a{
+margin-top: 30px;
+display: flex;
+align-items: center;
+width: 70%;
+color: #3E245F;
+}
+
+.banner{
+background: url(img/slider.jpg) #8B7EB0;
+background-blend-mode: multiply, normal;
+display: flex;
+color: #3E245F;
+align-items: center;
+min-height: 650px;
+width: 100%;
+background-size: cover;
+text-align: center;
+}
+.banner h2{
+font.size: 3rem;
+}
+.banner p{
+font.size: 2rem;
+}
+
+.scrolldown{
+position: absolute;
+left: calc(50%-52px);
+margin-top: 15%;
+align-content: center;
+align-items: center;
+}
+.scrolldown img{
+margin-bottom: 20px;
+}
+.scrolldown p{
+color: #ffffff;
+font-family: 'Roboto', sans-serif;
+font-size: 12px;
+font-weight: 700;
+}
+
+.head_white_content{
+display: inline-block;
+padding: 5%;
+text-align: center;
+width: 100%;
+}
+.head_white_content p{
+padding: 20px 90px 0px;
+color: #696969;
+}
+.head_white_content span{
+}
+
+.aboutus{
+margin-bottom: 90px;
+}
+.advant{
+text-align: center;
+width: 100%;
+background: #ebebeb;
+padding: 30px;
+margin: 3% 0;
+}
+.advant span{
+font-size: 60px;
+color: #3E245F;
+}
+.advant h4{
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 18px;
+letter-spacing: 0.25%;
+color: #707070;
+padding: 25px 0 13px;
+}
+.advant p{
+color: #707070;
+font-size: 14px;
+line-height: 100%;
+}
+
+h3{
+font-size: 38px;
+text-transform: uppercase;
+}
+h4{
+font-size: 36px;
+text-transform: uppercase;
+}
+
+.sinner1 {
+padding: 9% 5%;
+text-align: center;
+background: #ebebeb;
+min-height: 440;
+}
+.sinner1 img{
+margin: auto;
+}
+.sinner1 a img{
+display: inherit;
+width: 20%;
+}
+sinner1 h4{
+margin-top: 10px;
+font-size: 20px;
+}
+.sinner2 {
+padding: 9% 5%;
+text-align: left;
+background: #ebebeb;
+min-height: 440;
+}
+.sinner2 img{
+margin: auto;
+}
+.sinner2 a img{
+display: inherit;
+width: 20%;
+}
+sinner2 h4{
+margin-top: 10px;
+font-size: 20px;
+}
+
+.team{
+padding-bottom: 90px;
+}
+.team .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+position: absolute;
+border: 50px;
+width: 100%;
+}
+
+.somefeature {
+background-color: #3F3053;
+text-align: center;
+color: #f6f6f6;
+padding: 60px 0;
+display: block;
+}
+
+.partners {
+margin-top: 10px;
+width: 250px;
+}
+
+.price {
+background-color: #3F3053;
+text-align: center;
+color: #f6f6f6;
+padding: 60px 0;
+display: block;
+}
+.add_info {
+padding: 20px;
+}
+
+.price_content_head{
+background: #332742;
+color: #ffffff;
+padding: 40px 0 30px;
+font-family: "Segou UI", sans-serif;
+}
+.price_content_head h4{
+padding-top: 6px;
+font-size: 24px;
+}
+.price_content_head h5{
+padding-top: 6px;
+font-size: 18px;
+}
+
+price_content_body{
+background: #332742;
+padding: 45px 0 40px;
+letter-spacing: 1px;
+font-weight: 300;
+}
+price_content_body p{
+font-size: 14px;
+padding-bottom: 20px;
+font-weight: 700;
+color: #ffffff;
+}
+price_content_body p span{
+font-size: 15px;
+font-weight: 700;
+color: #ffffff;
+margin-right: 2px;
+letter-spacing: 2px;
+}
+.price_content_body a{
+background: #332742;
+color: #ffffff;
+border-radius: 5px;
+font-weight: 700;
+padding: 10px 30px;
+}
+
+.price_content:hover{
+border: 1px solid #9FD8CB;
+}
+.price_content:hover .price_content_body>p>span{
+color: #9FD8CB;
+}
+
+.head_black_content{
+padding-bottom: 20px;
+text-align: center;
+}
+.head_black_content span{
+display: inline-block;
+width: 180px;
+height: 12px;
+margin: 25px auto 0;
+background: #3F3053;
+}
+
+.numeral>div>span{
+font-size: 60px;
+color: #EFE3FD;
+}
+.numeral>div>p{
+font-size: 18px;
+color: white;
+}
+.numeral>div>h5{
+font-family: "Roboto", sans-serif;
+font-weight: 100;
+font-size: 28px;
+letter-spacing: 0.25%;
+color: #f0f0f0;
+padding: 25px 0 13px;
+}
